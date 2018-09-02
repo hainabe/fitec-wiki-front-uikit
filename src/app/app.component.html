@@ -1,35 +1,49 @@
 <!-- HEADER -->
-<nav class="uk-navbar-container uk-margin" uk-navbar>
+<nav class="uk-navbar-container uk-margin-large-top" uk-navbar>
   <div class="uk-navbar-center">
 
     <div class="uk-navbar-center-left">
       <div>
         <ul class="uk-navbar-nav">
-          <li class="uk-active"><a href="#">Active</a></li>
+          <li><a href="#"><span uk-icon="file-edit"></span></a></li>
+          <li class="uk-active"><a href="#">Articles</a></li>
+          <li><a href="#"><span uk-icon="bolt"></span></a></li>
           <li>
-            <a href="#">Parent</a>
+            <a href="#">Threads</a>
             <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class="uk-active"><a href="#">Active</a></li>
-                <li><a href="#">Item</a></li>
-                <li><a href="#">Item</a></li>
+                <li class="uk-active"><a href="#">Threads</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Recent</a></li>
+                <li><a href="#">...</a></li>
               </ul>
             </div>
           </li>
         </ul>
       </div>
     </div>
-    <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+    <div class="uk-card-header uk-flex-center">
+      <a class="uk-navbar-item uk-logo" href="#">
+        <img src="/src/assets/img/wt-logo.png">
+      </a>
+      <div class="uk-h1 uk-text-center">WICKED WIKI</div>
+    </div>
     <div class="uk-navbar-center-right">
       <div>
         <ul class="uk-navbar-nav">
-          <li><a href="#">Item</a></li>
+          <li><a href="#">SETTINGS</a></li>
+          <li><a href="#"><span uk-icon="settings"></span></a></li>
+          <li><a href="#">SIGN IN</a></li>
+          <li><a href="#"><span uk-icon="sign-in"></span></a></li>
         </ul>
       </div>
     </div>
 
   </div>
 </nav>
+
+<!-- DIVIDER -->
+<hr class="uk-divider-icon">
 
 <!-- SLIDER SECTION -->
 <div class="uk-position-relative uk-visible-toggle uk-light"
@@ -233,69 +247,68 @@
   </div>
 </div>
 
+<!-- DIVIDER -->
+<hr class="uk-divider-icon">
+
 <!-- FOOTER -->
-<footer class="uk-section uk-section-default" data-uk-scrollspy="{cls:'uk-animation-fade', delay:10, repeat:true}">
-  <div class="uk-container uk-container-center">
-    <div data-uk-grid-margin class="uk-grid">
-      <div class="uk-width-1-2@m">
-        <h3 class="uk-text-center@s">Transcademy</h3><!--font weight 400--><p class="uk-text-center@s">
-        At transcademy, we want to bridge the gaps in learning by creating an
-        enabling platform, where the three major stakeholders in a child's learning process can interact, and
-        exchange data. We believe this will help the parent, teacher and the school make better decisions on the
-        child.
-      </p>
-      </div>
-      <div class="uk-width-1-5@m">
-        <h3 class="uk-text-center@s">Pages</h3>
-        <ul class="uk-list uk-text-center@s">
-          <li class="uk-margin-small-bottom"><a href="#">About</a></li>
-          <li class="uk-margin-small-bottom"><a href="#">Blog</a></li>
-          <li class="uk-margin-small-bottom"><a href="#">Survey</a></li>
-          <li class="uk-margin-small-bottom"><a href="#">FAQ</a></li>
-        </ul>
-      </div>
-      <div class="uk-width-medium-3-10">
-        <h3 class="uk-text-center-small">Social</h3>
-        <ul class="uk-list uk-text-center-small">
-          <li>04 Mann Extensions Apt. 434, Lagos, Nigeria.</li>
-          <li>
-            <ul class="uk-flex-inline uk-padding-remove t-tel">
-              <li class="uk-margin-right"><a href="tel:+2348136957196">+234 813 6957196</a></li>
-              <li class="uk-margin-right"><a href="tel:+2348067147306">+234 806 7147306</a></li>
-            </ul>
-            <div class="uk-grid uk-grid-match">
-              <div class="uk-width-1-1"></div>
+<div class="uk-card-footer">
+  <div class="uk-section">
+    <div class="uk-container">
+      <div class="uk-container uk-text-center uk-grid-match" uk-grid>
+        <div class="uk-text-left uk-width-1-4">
+          <p>FITEC</p>
+        </div>
+        <div class="uk-text-center uk-width-2-4">
+          <q>Wicked never felt so good...</q>
+        </div>
+        <div class="uk-text-right uk-width-1-4">
+          <div class="uk-card uk-card-body">
+
+            <div class="">
+              <img class="uk-border-circle" src="/src/assets/img/paula-logo.jpg">
+              <p>Paula</p>
             </div>
-          </li>
-          <li class="t-mail"><a href="mailto:info@transcademy.com">info@transcademy.com</a></li>
-          <li>
-            <ul class="uk-flex-inline uk-padding-remove t-social">
-              <li><a href="http://www.twitter.com/transcademy"><i class="t-icon-twitter"></i></a></li>
-              <li><a href="http://www.facebook.com/transcademy"><i class="t-icon-facebook"></i></a></li>
-              <li>
-                <a href="http://www.google.com/+transcademy01"><i class="t-icon-google-plus"></i></a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="uk-grid-divider"></div>
-    <div data-uk-grid-margin class="uk-grid">
-      <div class="uk-width-1-1 uk-text-center-small uk-width-medium-1-2 t-copyright">
-        Copyright © 2016 Transcademy.
-        All rights reserved.
-      </div>
-      <div class="uk-width-1-1 uk-text-center-small uk-width-medium-1-2">
-        <ul class="uk-list">
-          <li class="uk-text-right uk-text-center-small">
-            <a href="#" class="uk-margin-right">
-              Privacy
-              Policy
-            </a><a href="#" class="uk-margin-right">Terms of Use</a><a href="#">Site Map</a>
-          </li>
-        </ul>
+            <div class="">
+              <img class="uk-border-circle" src="/src/assets/img/gab-logo.jpg">
+              <p>Gabriel</p>
+            </div>
+            <p><img src="/src/assets/img/gab-logo.jpg"></p>
+            <p>Copyright © 2018 P & G</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
-</footer>
+</div>
+
+<div class="uk-card-footer">
+  <div class="uk-card uk-card-default">
+    <div class="uk-card-header">
+      <div class="uk-grid-small uk-flex-middle" uk-grid>
+        <div class="uk-width-auto">
+          <img class="uk-border-circle" width="40" height="40" src="images/avatar.jpg">
+        </div>
+        <div class="uk-width-expand">
+          <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
+          <p class="uk-text-meta uk-margin-remove-top">
+            <time datetime="2016-04-01T19:00">April 01, 2016</time>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="uk-card-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    </div>
+    <div class="uk-card-footer uk-margin">
+      <ul>
+        <li><a href="#" class="uk-button uk-button-text">Read more</a></li>
+        <li><a href="#" class="uk-button uk-button-text">Read more</a></li>
+        <li><a href="#" class="uk-button uk-button-text">Read more</a></li>
+      </ul>
+      <a href="#" class="uk-button uk-button-text">Read more</a>
+      <a href="#" class="uk-button uk-button-text">Read more</a>
+
+    </div>
+  </div>
+</div>

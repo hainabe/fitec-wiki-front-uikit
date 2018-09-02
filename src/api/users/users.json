@@ -1,0 +1,146 @@
+{
+  "_embedded" : {
+    "users" : [ {
+      "userLogger" : {
+        "email" : "email01",
+        "username" : "username01",
+        "password" : "password01",
+        "creationDate" : "2010-12-31T23:00:00.000+0000",
+        "profile" : {
+          "idProfileModel" : 1,
+          "id" : 1
+        }
+      },
+      "userInfo" : {
+        "firstname" : "fn01",
+        "lastname" : "ln01",
+        "phone" : "phone01",
+        "birthday" : "2010-12-31T23:00:00.000+0000",
+        "address" : {
+          "street" : "street01",
+          "city" : "city01",
+          "zipcode" : "zc01",
+          "country" : "country01"
+        }
+      },
+      "status" : {
+        "idStatusModel" : 21,
+        "id" : 21
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/users/1"
+        },
+        "user" : {
+          "href" : "http://localhost:8080/api/users/1"
+        },
+        "comments" : {
+          "href" : "http://localhost:8080/api/users/1/comments"
+        },
+        "articles" : {
+          "href" : "http://localhost:8080/api/users/1/articles"
+        }
+      }
+    }, {
+      "userLogger" : {
+        "email" : "email02",
+        "username" : "username02",
+        "password" : "password02",
+        "creationDate" : "2012-02-01T23:00:00.000+0000",
+        "profile" : {
+          "idProfileModel" : 2,
+          "id" : 2
+        }
+      },
+      "userInfo" : {
+        "firstname" : "fn02",
+        "lastname" : "ln02",
+        "phone" : "phone02",
+        "birthday" : "2012-02-01T23:00:00.000+0000",
+        "address" : {
+          "street" : "street02",
+          "city" : "city02",
+          "zipcode" : "zc02",
+          "country" : "country02"
+        }
+      },
+      "status" : {
+        "idStatusModel" : 22,
+        "id" : 22
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/users/2"
+        },
+        "user" : {
+          "href" : "http://localhost:8080/api/users/2"
+        },
+        "comments" : {
+          "href" : "http://localhost:8080/api/users/2/comments"
+        },
+        "articles" : {
+          "href" : "http://localhost:8080/api/users/2/articles"
+        }
+      }
+    }, {
+      "userLogger" : {
+        "email" : "email03",
+        "username" : "username03",
+        "password" : "password03",
+        "creationDate" : "2013-03-02T23:00:00.000+0000",
+        "profile" : {
+          "idProfileModel" : 3,
+          "id" : 3
+        }
+      },
+      "userInfo" : {
+        "firstname" : "fn03",
+        "lastname" : "ln03",
+        "phone" : "phone03",
+        "birthday" : "2013-03-02T23:00:00.000+0000",
+        "address" : {
+          "street" : "street03",
+          "city" : "city03",
+          "zipcode" : "zc03",
+          "country" : "country03"
+        }
+      },
+      "status" : {
+        "idStatusModel" : 24,
+        "id" : 24
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/users/3"
+        },
+        "user" : {
+          "href" : "http://localhost:8080/api/users/3"
+        },
+        "comments" : {
+          "href" : "http://localhost:8080/api/users/3/comments"
+        },
+        "articles" : {
+          "href" : "http://localhost:8080/api/users/3/articles"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/users{?page,size,sort}",
+      "templated" : true
+    },
+    "profile" : {
+      "href" : "http://localhost:8080/api/profile/users"
+    },
+    "search" : {
+      "href" : "http://localhost:8080/api/users/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 3,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

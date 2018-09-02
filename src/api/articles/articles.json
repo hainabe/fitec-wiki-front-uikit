@@ -1,0 +1,92 @@
+{
+  "_embedded" : {
+    "articles" : [ {
+      "title" : "title01",
+      "content" : "content01",
+      "creationDate" : "2010-12-31T23:00:00.000+0000",
+      "year" : "2011",
+      "status" : {
+        "idStatusModel" : 11,
+        "id" : 11
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/articles/1"
+        },
+        "article" : {
+          "href" : "http://localhost:8080/api/articles/1"
+        },
+        "user" : {
+          "href" : "http://localhost:8080/api/articles/1/user"
+        },
+        "comments" : {
+          "href" : "http://localhost:8080/api/articles/1/comments"
+        }
+      }
+    }, {
+      "title" : "title02",
+      "content" : "content02",
+      "creationDate" : "2012-02-01T23:00:00.000+0000",
+      "year" : "2012",
+      "status" : {
+        "idStatusModel" : 14,
+        "id" : 14
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/articles/2"
+        },
+        "article" : {
+          "href" : "http://localhost:8080/api/articles/2"
+        },
+        "user" : {
+          "href" : "http://localhost:8080/api/articles/2/user"
+        },
+        "comments" : {
+          "href" : "http://localhost:8080/api/articles/2/comments"
+        }
+      }
+    }, {
+      "title" : "title03",
+      "content" : "content03",
+      "creationDate" : "2013-03-02T23:00:00.000+0000",
+      "year" : "2013",
+      "status" : {
+        "idStatusModel" : 13,
+        "id" : 13
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/api/articles/3"
+        },
+        "article" : {
+          "href" : "http://localhost:8080/api/articles/3"
+        },
+        "user" : {
+          "href" : "http://localhost:8080/api/articles/3/user"
+        },
+        "comments" : {
+          "href" : "http://localhost:8080/api/articles/3/comments"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/articles{?page,size,sort}",
+      "templated" : true
+    },
+    "profile" : {
+      "href" : "http://localhost:8080/api/profile/articles"
+    },
+    "search" : {
+      "href" : "http://localhost:8080/api/articles/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 3,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
